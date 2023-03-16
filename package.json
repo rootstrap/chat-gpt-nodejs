@@ -1,0 +1,23 @@
+{
+  "name": "chat-gpt-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS REST-API to interact with OpenAI",
+  "main": "app.js",
+  "scripts": {
+    "build": "rm -rf dist/* && tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "Pablo Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.3"
+  }
+}
