@@ -12,7 +12,7 @@ const configuration = new Configuration({
 // OpenAIApi initialization
 const openai = new OpenAIApi(configuration);
 
-//This arrays are to maintain the history of the conversation
+//These arrays are to maintain the history of the conversation
 const conversationContext = [];
 const currentMessages = [];
 
