@@ -33,3 +33,7 @@ To start the server from the compiled folder (/dist).
 ```sh
 npm run start
 ```
+
+## Demo
+
+![Demo](run.gif)
